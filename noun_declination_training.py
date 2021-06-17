@@ -133,6 +133,10 @@ while True:
     while _input == 'R':
         for m in range(len(weights) - 1):
             weights[m] = 1
+        file = open('weights.txt', 'w')
+        for m in range(len(weights) - 1):
+            file.write(str(weights[m]) + '\n')
+        file.close()
         _input = input(case[k] + ' ' + number[l] + ' of ' + nouns[i][j][0] + ', ' + nouns[i][j][1] + ' ' + nouns[i][j][2] + ': ')
 
     if _input in declinations:
