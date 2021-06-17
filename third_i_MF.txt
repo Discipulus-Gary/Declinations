@@ -1,0 +1,16 @@
+amnis amnis M
+auris auris F
+avis avis F
+civis civis M
+civis civis F
+classis classis F
+finis finis M
+hostis hostis M
+hostis hostis F
+ignis ignis M
+navis navis F
+orbis orbis M
+testis testis M
+vestis vestis F 
+volucris volucris M
+volucris volucris F
